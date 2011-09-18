@@ -48,7 +48,7 @@ event({submit, {akismet_newcomment, Args}, TriggerId, _TargetId}, Context) ->
         _ ->
                 Peer   = m_req:get(peer, Context),
                 UAgent = m_req:get(user_agent, Context),
-                Blog   =
+                Blog   = m_site:get(hostname, Context),
                 Message= z_context:get_q_validated("message", Context),
 
                 Author = z_context:get_q_validated("name", Context),
