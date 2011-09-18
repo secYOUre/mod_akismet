@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2010-07-05 11:51+0100\n"
+"Last-Translator: Alfonso De Gregorio <adg@secYOUre.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgstr "Commentaires"
+
+#: ./modules/mod_akismet/templates/_comments_form.tpl:15
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ./modules/mod_akismet/templates/_comments_form.tpl:36
+msgid "Log on or sign up to comment"
+msgstr "Accedi o Registrati per commentare."
+
+#: ./modules/mod_akismet/templates/_comments_form.tpl:24
+msgid "Message"
+msgstr "Messaggio"
+
+#: ./modules/mod_akismet/templates/_comments_form.tpl:10
+msgid "Name"
+msgstr "Nome"
+
+#: ./modules/mod_akismet/templates/_comments_form.tpl:29
+msgid "Send"
+msgstr "Invia"
+
+#: ./modules/mod_akismet/templates/_comments_form.tpl:15
+msgid "E-mail"
+msgstr "E-mail"
