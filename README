@@ -1,0 +1,29 @@
+Zotonic mod_akismet
+===================
+
+Akismet comment spam filtering for Zotonic. 
+Implements a simple comment spam defense with Akismet.
+
+
+How to use mod_akismet
+----------------------
+
+Zotonic 0.7 and higher
+
+  1. zotonic installmodule mod_akismet
+  2. Sign-up for an Akismet.com API key at https://akismet.com/signup/
+  3. In the "config" section in the Zotonic admin, create a config key:
+     mod_akismet/akismet_key - Your Akismet.com API key
+  4. Now, activate both the Zotonic Comments and Akismet modules 
+     under "Modules".  
+
+
+Zotonic <= 0.6
+
+  1. cd $ZOTONIC_HOME/modules
+  2. git clone git://github.com/secYOUre/mod_akismet.git mod_akismet
+  3. Sign-up for an Akismet.com API key at https://akismet.com/signup/
+  4. In the "config" section in the Zotonic admin, create a config key:
+     mod_akismet/akismet_key - Your Akismet.com API key
+  5. Now, activate both the Zotonic Comments and Akismet modules 
+     under "Modules".  
